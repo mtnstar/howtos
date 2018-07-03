@@ -1,5 +1,10 @@
 # OpenSSL
 
+## Quick Devel Cert/Key Pair
+To create a self-signed / quick-dirty certs/key pair, just execute the following one liner:
+```
+openssl req -x509 -nodes -newkey rsa:4096 -keyout key.pem -out cert.pem -days 3650 -subj "/C=US/ST=Bern/L=Bern/O=Acme/OU=Org/CN=localhost"
+```
 ## Prep
 
 ```
