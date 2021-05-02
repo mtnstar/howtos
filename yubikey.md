@@ -4,9 +4,11 @@
 
 ### 1. Install requirements
 
-`sudo add-apt-repository ppa:yubico/stable && sudo apt-get update`
-`sudo apt install libpam-yubico`
-`sudo apt install libpam-u2f`
+```
+sudo add-apt-repository ppa:yubico/stable && sudo apt-get update
+sudo apt install libpam-yubico
+sudo apt install libpam-u2f
+```
 
 ### 1. configure pin for yubikey
 
